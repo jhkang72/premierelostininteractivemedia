@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>World Premiere Film</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            body {
+                background-color: rgb(249, 240, 199);
+                color:navy;
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+            }
+
+            h1{
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+            }
+
+            .section {
+                color: rgb(88, 36, 173)
+            }
+
+            footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 0.2em 0;
+            font-size: 0.4em;
+            }
+
+            header {
+            position: sticky;
+            top: 0;
+            background-color: #222;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.3);    
+            }
+     
+            .container {
+            max-width: 960px;
+            margin: 2em auto;
+            padding: 0 1em;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            }
+
+            .cast-list {
+            display: flex;
+            gap: 2em;
+            flex-wrap: wrap;
+            justify-content: center;
+            }
+
+            cast-member {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            overflow: hidden;
+            width: 280px;
+            text-align: center;
+            transition: transform 0.3s;
+            }
+
+            .cast-member:hover {
+            transform: translateY(-5px);
+            }
+
+            .cast-member img {
+            width: 100%;
+            height: auto;
+            }
+
+            .cast-member h3 {
+            margin: 0.5em 0 0.2em;
+            color: #444;
+            }
+
+            .cast-member p {
+            padding: 0 1em 1em;
+            font-size: 0.95em;
+            color: #555;
+            }
+
+    
+        </style>
+    </head>
+    <body>
+     <a href="AssignmentProject.html">Home</a>
+        <a href="stream.html">Stream</a> 
+        <h1>Meet the Crew</h1>
+  <div class="container">
+    <div class="cast-list">
+      <div class="cast-member">
+        <img src="assets/Jihee.JPG" alt="Cast Member 1"
+         style="width:300px;height:500px;"/>
+        <h3>Jihee</h3>
+        <p>Jihee is a freshman at NYUAD. She intends to major in psychology, and is interested in taking Interactive Media as a minor. She likes hiking, biking, photography, listening to music, and swimming in her free time.</p>
+      </div>
+
+      <div class="cast-member">
+        <img src="assets/Areeba.JPG" alt="Cast Member 2"
+         style="width:500px;height:600px;"/>
+        <h3>Areeba</h3>
+        <p>Areeba is an Interactive Media major with a big enthusiasm for the arts. She's always trying to make new things, and loves experimenting with styles. An avid perfectionist, you'll usually find her hunched over adding that final touch to her projects to make sure they're just flawless.</p>
+      </div>
+
+      <div class="cast-member">
+        <img src="assets/Anika.JPG" alt="Cast Member 3"
+         style="width:500px;height:600px;"/>
+        <h3>Anika</h3>
+        <p>Anika is a Computer Science major planning to double minor in Mathematics and Interactive Media. You'll either find her in her dorm bed-rotting, or somewhere on the campus, multitasking ten things at once. She is passionate about the things she chooses to do, and that includes dancing, public speaking, and whatever she finds interesting at the moment.</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Your Production Name. All rights reserved.
+  </footer>
+
+</body>
+</html>
